@@ -6,12 +6,12 @@ package zlint
 
 import (
 	"bytes"
+	"crypto/x509"
 	"encoding/base64"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/lints"
+	"github.com/adamdecaf/zlint/lints"
 	"time"
 )
 

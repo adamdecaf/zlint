@@ -10,8 +10,8 @@ marked critical, and it MUST contain the HTTP URL of the Issuing CA’s OCSP res
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type subCaIssuerUrl struct {

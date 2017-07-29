@@ -10,8 +10,8 @@ field without including other Subject Identity Information pursuant to Section 9
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type orgNoCountry struct {

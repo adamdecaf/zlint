@@ -15,8 +15,8 @@ ones that contain key management public keys used with certificate.
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type basicConstCrit struct {

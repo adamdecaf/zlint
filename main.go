@@ -2,12 +2,12 @@ package main
 
 import (
 	"bufio"
+	"crypto/x509"
 	"encoding/base64"
 	"encoding/json"
 	"flag"
+	"github.com/adamdecaf/zlint/zlint"
 	log "github.com/Sirupsen/logrus"
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/zlint"
 	"os"
 	"runtime"
 	"sync"

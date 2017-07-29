@@ -6,8 +6,8 @@ Certificates MUST be of type X.509 v3.
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type InvalidCertificateVersion struct {

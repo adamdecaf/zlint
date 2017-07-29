@@ -8,8 +8,8 @@ This extension MAY be supported by CAs and/or applications.
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type policyMapCritical struct {

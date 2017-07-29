@@ -7,8 +7,8 @@ stored in the uniformResourceIdentifier (an IA5String).
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 	"unicode"
 )
 

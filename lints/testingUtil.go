@@ -6,7 +6,7 @@ package lints
 import (
 	"encoding/pem"
 	"fmt"
-	"github.com/zmap/zcrypto/x509"
+	"crypto/x509"
 	"io/ioutil"
 	"strings"
 )

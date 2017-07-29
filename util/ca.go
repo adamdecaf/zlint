@@ -1,6 +1,8 @@
 package util
 
-import "github.com/zmap/zcrypto/x509"
+import (
+	"crypto/x509"
+)
 
 // IsCACert returns true if c has IsCA set.
 func IsCACert(c *x509.Certificate) bool {
@@ -19,7 +21,8 @@ func IsSubCA(c *x509.Certificate) bool {
 
 // IsSelfSigned returns true if SelfSigned is set.
 func IsSelfSigned(c *x509.Certificate) bool {
-	return c.SelfSigned
+	// return c.SelfSigned
+	return false // TODO(adam): How can we tweak this from zcrypto?
 }
 
 // IsSubscriberCert returns true for if a certificate is not a CA and not

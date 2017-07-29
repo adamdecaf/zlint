@@ -1,12 +1,11 @@
 package util
 
 import (
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"regexp"
 	"strings"
 	"unicode"
-
-	"github.com/zmap/zcrypto/x509/pkix"
 )
 
 // CheckRDNSequenceWhiteSpace returns true if there is leading or trailing

@@ -15,8 +15,8 @@ Further, if the only subject identity included in the certificate is
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type extSANNotCritNoSubject struct {

@@ -10,8 +10,8 @@ CAs complying with these Requirements MAY also assert one of the reserved policy
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type subCertPolicyEmpty struct {

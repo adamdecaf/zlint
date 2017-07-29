@@ -1,11 +1,10 @@
 package util
 
 import (
+	"crypto/x509"
+	"crypto/x509/pkix"
 	"encoding/asn1"
 	"errors"
-
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zcrypto/x509/pkix"
 )
 
 var (

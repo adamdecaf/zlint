@@ -8,8 +8,8 @@ Either the value id-kp-serverAuth [RFC5280] or id-kp-clientAuth [RFC5280] or bot
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type subExtKeyUsage struct {

@@ -11,8 +11,8 @@ Section 7.1.4.2.1).
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type BadCommonName struct {

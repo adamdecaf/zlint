@@ -2,6 +2,8 @@
  * File used to parse newgtlds.csv and generate a map
  */
 
+// TODO(adam): What's different in this file and data/newgtlds.txt ??
+
 package util
 
 import (

@@ -1,9 +1,8 @@
 package lints
 
 import (
+	"crypto/x509"
 	"time"
-
-	"github.com/zmap/zcrypto/x509"
 )
 
 // global

@@ -18,8 +18,8 @@ encoding internationalized domain names are specified in Section 7.2.
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type SANDNSNotIA5String struct {

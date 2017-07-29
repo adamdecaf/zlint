@@ -13,8 +13,8 @@ The name constraints extension, which MUST be used only in a CA
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type nameConstraintNotCa struct {

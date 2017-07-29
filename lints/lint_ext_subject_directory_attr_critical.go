@@ -10,8 +10,8 @@ The subject directory attributes extension is used to convey
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type subDirAttrCrit struct {

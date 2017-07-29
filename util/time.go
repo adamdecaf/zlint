@@ -1,8 +1,8 @@
 package util
 
 import (
+	"crypto/x509"
 	"encoding/asn1"
-	"github.com/zmap/zcrypto/x509"
 	"time"
 )
 

@@ -16,9 +16,9 @@ package lints
 
 import (
 	"encoding/asn1"
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zcrypto/x509/pkix"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"crypto/x509/pkix"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type distributionPoint struct {

@@ -8,8 +8,8 @@ If the Root CA Private Key is used for signing OCSP responses, then the digitalS
 package lints
 
 import (
-	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/util"
+	"crypto/x509"
+	"github.com/adamdecaf/zlint/util"
 )
 
 type caDigSignNotSet struct {
